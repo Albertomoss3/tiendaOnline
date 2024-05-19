@@ -130,6 +130,9 @@ if(isset($_SESSION['nombre_cliente']) || isset($_COOKIE['nombre_cliente'])){
 <?php
 }
 ?>
+
+
+
 </div>
 <div class="slider wow bounceInUp" data-wow-duration="1.5s">
 	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
