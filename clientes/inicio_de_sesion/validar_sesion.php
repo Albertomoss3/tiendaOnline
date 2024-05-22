@@ -7,7 +7,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 	$password=mysqli_real_escape_string($conexion,$_POST['password']);
 	$email=utf8_decode($email);
 	$password=utf8_decode($password);
-	$registros=mysqli_query($conexion,"SELECT id_cliente,nombre,email,password FROM clientes WHERE email='$email' AND password='$password' AND validado='1'");
+	$registros=mysqli_query($conexion,"SELECT id_cliente,nombre,email,password FROM clientes WHERE email='$email' AND password='$password'");
 	
 		if(mysqli_num_rows($registros)==0)	echo "fracaso";
 		

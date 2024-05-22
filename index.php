@@ -215,9 +215,9 @@ cerrarconexion();
         <button type="button" onclick="recuperar_password()" class="btn btn-success">Recuperar Contraseña</button>
       </div>
       
-      <div class="modal-footer">
+    <div class="modal-footer">
       
-      <!-- aler contraseña no correcta -->
+    <!-- aler contraseña no correcta -->
       
       <div style="display:none" id="alertlogin" class="alert alert-danger alert-dismissible" role="alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span   aria-hidden="true">&times;</span></button>
