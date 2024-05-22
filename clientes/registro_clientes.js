@@ -121,8 +121,6 @@ function validarformulario(){
 			}
 			
 		});
-	
-	
 	// zona ajax
 			}
 		}

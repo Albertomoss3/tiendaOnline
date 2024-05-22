@@ -1,11 +1,11 @@
 //----------------------- stock ---------------------------//
 function comprobar_stock(cantidad){
 	
-	var id_producto=document.formu_compra.id_producto.value;
-	var cantidad_producto=document.formu_compra.cantidad_producto.value;
+	const id_producto=document.formu_compra.id_producto.value;
+	const cantidad_producto=document.formu_compra.cantidad_producto.value;
 	
 	$.ajax({
-					
+	
 		type:"POST",
 		url:"compra/comprobar_stock.php",
 		data:{"id_producto":id_producto,"cantidad_producto":cantidad_producto},

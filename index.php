@@ -130,6 +130,9 @@ if(isset($_SESSION['nombre_cliente']) || isset($_COOKIE['nombre_cliente'])){
 <?php
 }
 ?>
+
+
+
 </div>
 <div class="slider wow bounceInUp" data-wow-duration="1.5s">
 	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
@@ -212,9 +215,9 @@ cerrarconexion();
         <button type="button" onclick="recuperar_password()" class="btn btn-success">Recuperar Contraseña</button>
       </div>
       
-      <div class="modal-footer">
+    <div class="modal-footer">
       
-      <!-- aler contraseña no correcta -->
+    <!-- aler contraseña no correcta -->
       
       <div style="display:none" id="alertlogin" class="alert alert-danger alert-dismissible" role="alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span   aria-hidden="true">&times;</span></button>
